@@ -1,5 +1,6 @@
 ## Data Processing Part of UROP2022 Fall
 **The raw txt files**
+
 Due to the huge size of the raw .txt file bundle, the ```HKEX Reports``` folder can be found in this [link](https://drive.google.com/drive/folders/1-gYNQiw4G49-AK8UHM8iDOrmeZnJEckO?usp=sharing). You can fork this repository and download the folder directly to the project.
 
 **The file structure of the generated dataset**:
