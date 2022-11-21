@@ -35,7 +35,6 @@ for f in filesList:
     files_dict["textual data"].append(text)
     files_dict["label"].append("F")
     files_dict["time"].append(f[0:8])  # e.g. 20200517.txt, strip ".txt"
-    # 关闭文件
     fo.close()
 
 fraud_df_2 = pd.DataFrame.from_dict(files_dict)
