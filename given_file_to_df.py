@@ -28,14 +28,13 @@ for f in filesList:
     count = 0
 
     text = ""
-    for line in fo.readlines():  # 依次读取每行
+    for line in fo.readlines():  # read each line
         line = re.sub('[^a-zA-Z0-9\n\.]', ' ', line)
         line = line.strip()
         text = text + line
     files_dict["textual data"].append(text)
     files_dict["label"].append("F")
     files_dict["time"].append(find_date(f))
-    # 关闭文件
     fo.close()
 
 fraud_df = pd.DataFrame(files_dict)
