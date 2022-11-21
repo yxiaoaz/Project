@@ -43,7 +43,6 @@ for dir in directory:
                     files_dict["textual data"].append(text)
                     files_dict["label"].append("NF")
                     files_dict["time"].append(filepath[find_(0,filepath,target_num=7)+1:find_(0,filepath,target_num=8)])
-                    # 关闭文件
                     fo.close()
                 except:
                     i=i+1
