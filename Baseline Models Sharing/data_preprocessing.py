@@ -4,6 +4,7 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk import word_tokenize
+import nltk
 
 def remove_stopwords(text):
     removed = []
@@ -42,11 +43,11 @@ class preprocessing():
         self.df = self.df.dropna()
         self.df["textual data"] = self.df["textual data"].apply(lambda x: remove_stopwords(x))
         self.df["textual data"] = self.df["textual data"].apply(lambda x: remove_extra_white_spaces(x))
-        #self.df["textual data"] = self.df["textual data"].apply(lambda x: lemmatizing(x))
         self.df.to_csv("Stemmed_All.csv", encoding='utf-8', index=False)
         print(self.df)
         return self.df
 
 
-preprocessing('All.csv').run() #./Project./All.csv
+if __name__ == '__main__':
+    pass
 
