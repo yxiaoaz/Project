@@ -42,7 +42,7 @@ class preprocessing():
         self.df = self.df.dropna()
         self.df["textual data"] = self.df["textual data"].apply(lambda x: remove_stopwords(x))
         self.df["textual data"] = self.df["textual data"].apply(lambda x: remove_extra_white_spaces(x))
-        self.df["textual data"] = self.df["textual data"].apply(lambda x: lemmatizing(x))
+        #self.df["textual data"] = self.df["textual data"].apply(lambda x: lemmatizing(x))
         self.df.to_csv("Stemmed_All.csv", encoding='utf-8', index=False)
         print(self.df)
         return self.df
