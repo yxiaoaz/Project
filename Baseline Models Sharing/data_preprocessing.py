@@ -20,7 +20,7 @@ def remove_extra_white_spaces(text):
     without_sc = re.sub(pattern=single_char_pattern, repl=" ", string=text)
     return without_sc
 
-def lemmatizing(text):
+def lemmatizing(text):  # can try including this one too. the required nltk file cannot be installed correctly on my machine so I skip this one.
     lemmatizer = WordNetLemmatizer()
     tokens = word_tokenize(text)
     for i in range(len(tokens)):
