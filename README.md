@@ -1,3 +1,45 @@
+## Baseline Model Sharing ##
+
+Our group is also sharing the results of Bag-of-Word models, since we probably will all use these results for our own experiments anyway. We split the dataset with 80:20 train-test ratio, and adopted oversampling (SMOTE) technique on the train set to address the imbalance issue (~150:1, NF:F).
+
+The results are show below:
+
+```
+------------------Multinomial Naive Bayes-------------------
+Starts pipeline
+-------Best Model Parameters:--------
+{'alpha': 0.01}
+-------------------------------------
+Accuracy Score : 0.93974175035868
+Precision Score : 0.05813953488372093
+Recall Score : 0.625
+F1 Score : 0.10638297872340426
+```
+
+```
+------------------BernoulliNB-------------------
+Starts pipeline
+-------Best Model Parameters:--------
+{'alpha': 0.01}
+-------------------------------------
+Accuracy Score : 0.9681492109038737
+Precision Score : 0.030927835051546393
+Recall Score : 0.15
+F1 Score : 0.05128205128205128
+```
+
+'''
+Logistic Regression
+-------Best Model Parameters:--------
+{'C': 10000.0, 'penalty': 'l2'}
+-------------------------------------
+Accuracy Score : 0.9925394548063128
+Precision Score : 0.3235294117647059
+Recall Score : 0.275
+F1 Score : 0.2972972972972973
+'''
+
+
 ## Data Processing Part of UROP2022 Fall
 **The raw txt files**
 
