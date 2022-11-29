@@ -28,7 +28,7 @@ Recall Score : 0.15
 F1 Score : 0.05128205128205128
 ```
 
-'''
+```
 Logistic Regression
 -------Best Model Parameters:--------
 {'C': 10000.0, 'penalty': 'l2'}
@@ -37,7 +37,7 @@ Accuracy Score : 0.9925394548063128
 Precision Score : 0.3235294117647059
 Recall Score : 0.275
 F1 Score : 0.2972972972972973
-'''
+```
 
 
 ## Data Processing Part of UROP2022 Fall
