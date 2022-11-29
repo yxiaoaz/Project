@@ -15,7 +15,7 @@ Precision Score : 0.05813953488372093
 Recall Score : 0.625
 F1 Score : 0.10638297872340426
 ```
-
+![image](https://github.com/yxiaoaz/UROP-2022Fall-/blob/master/Baseline%20Models%20Sharing/Multinomial%20Bayes_GridSearch_no%20time%20ordering.png)
 ```
 ------------------BernoulliNB-------------------
 Starts pipeline
@@ -27,6 +27,7 @@ Precision Score : 0.030927835051546393
 Recall Score : 0.15
 F1 Score : 0.05128205128205128
 ```
+![image](https://github.com/yxiaoaz/UROP-2022Fall-/blob/master/Baseline%20Models%20Sharing/Bernoulli%20Bayes_GridSearch_no%20time%20ordering.png)
 
 ```
 Logistic Regression
@@ -38,6 +39,7 @@ Precision Score : 0.3235294117647059
 Recall Score : 0.275
 F1 Score : 0.2972972972972973
 ```
+![image](https://github.com/yxiaoaz/UROP-2022Fall-/blob/master/Baseline%20Models%20Sharing/Logistic%20Regression_GridSearch_no%20time%20ordering.png)
 
 
 ## Data Processing Part of UROP2022 Fall
