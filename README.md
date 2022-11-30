@@ -1,6 +1,6 @@
 ## Baseline Model Sharing ##
 
-Our group is also sharing the results of Bag-of-Word models, since we probably will all use these results for our own experiments anyway. We split the dataset with 80:20 train-test ratio, and adopted oversampling (SMOTE) technique on the train set to address the imbalance issue (~150:1, NF:F).
+Our group is also sharing the results of Bag-of-Word models, since we probably will all use these results for our own experiments. We split the dataset with 80:20 train-test ratio, and adopted oversampling (SMOTE) technique on the train set to address the imbalance issue (~150:1, NF:F).
 
 The results are show below:
 
